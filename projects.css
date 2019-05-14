@@ -1,0 +1,124 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html, body {
+  margin: 0;
+  font-family: Arial Bold, sans-serif;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  min-width: 30vw;
+  margin: 0 auto;
+  position: relative;
+  top: 20px;
+}
+
+li {
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding-right: 45px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+footer {
+  height: 50px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+header {
+  height: 50px;
+
+  width: 100%;
+  position: fixed;
+}
+
+.f-span {
+  position: relative;
+  left: 40px;
+  position: relative;
+  top: 20px;
+  font-weight: bolder;
+}
+
+.p-2 {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.p-1:hover {
+  background-image: url('Assets/App-BG-photos/dit-cart-bw.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.p-2:hover {
+  background-image: url('Assets/App-BG-photos/camera-bw.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  color: white;
+}
+
+.p-3:hover {
+  background-image: url('Assets/App-BG-photos/skyline-bg-bw.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 20%;
+  color: white;
+}
+
+.proj {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  background-image: url('Assets/background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.app-title {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-size: xx-large;
+}
+
+@media screen and (max-width: 720px) {
+  .flex {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .proj {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 33.3vh;
+
+  }
+
+}

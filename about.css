@@ -1,0 +1,154 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html, body {
+  margin: 0;
+  font-family: Arial Bold, sans-serif;
+}
+
+header {
+  height: 50px;
+  width: 100%;
+  position: fixed;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  min-width: 30vw;
+  margin: 0 auto;
+  position: relative;
+  top: 20px;
+}
+
+li {
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding-right: 45px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+
+footer {
+  height: 50px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  grid-area: footer;
+}
+
+.f-span {
+  position: relative;
+  left: 40px;
+  position: relative;
+  top: 20px;
+  font-weight: bolder;
+}
+
+
+h1 {
+  word-spacing: .7em;
+  font-size: 4vw;
+  margin: 0;
+  padding: 5px;
+}
+
+h2 {
+  color: lightgrey;
+  filter: blur(1px);
+  font-size: 2vw;
+  margin: 0;
+  word-spacing: .5em;
+  letter-spacing: .5em;
+  position: relative;
+  left: .6%;
+}
+
+.p-c-buttons span {
+  text-transform: uppercase;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+}
+
+button {
+  background-color: grey;
+  height: 50px;
+  width: 245px;
+}
+
+.about-p {
+  color: grey;
+  font-size: 2vw;
+}
+
+.landing-span {
+  color: black;
+  font-style: italic;
+}
+
+.name-title {
+  position: relative;
+  top: 50px;
+  grid-area: name-title;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.long-about {
+  grid-area: about;
+  display: grid;
+  grid-template-columns: 500px 1fr;
+  gap: 10px;
+  place-items: center center;
+}
+
+.myphoto {
+  float: left;
+  max-width: 500px;
+}
+
+.grid {
+  position: relative;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 20px 1fr 20px;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas: ". name-title ." ". about ." ". footer .";
+  height: 100vh;
+}
+
+@media screen and (max-width: 764px) {
+  .long-about {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-p {
+    font-size: 3vw;
+  }
+
+  .myphoto {
+    max-width: 400px;
+    max-height: 300px
+  }
+
+  h1 {
+    font-size: 7vw;
+  }
+
+  h2 {
+    font-size: 3.5vw;
+  }
+}
