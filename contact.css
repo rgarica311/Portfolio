@@ -1,0 +1,90 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html, body {
+  margin: 0;
+  font-family: Arial Bold, sans-serif;
+}
+
+header {
+  height: 50px;
+  width: 100%;
+  position: fixed;
+}
+
+
+
+ul {
+  display: flex;
+  flex-direction: row;
+  min-width: 30vw;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+  top: 20px;
+}
+
+li {
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding-right: 45px;
+  margin-right: 10px;
+  font-family: 'Montserrat', sans-serif;
+  border: 1px solid black;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+footer {
+  height: 50px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+textarea {
+  height: 20vh;
+  width: 40vh;
+}
+
+.button {
+  position: relative;
+  left: 16%;
+}
+
+.message {
+  position: relative;
+}
+
+
+#name  {
+  position: relative;
+  left: 5%;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+
+#mail  {
+  position: relative;
+  left: 4.5%;
+  margin-bottom: 5px;
+}
+.contact-form {
+  position: relative;
+  height: 50%;
+  width: 50%;
+  top: 35vh;
+  left: 5vh;
+}
