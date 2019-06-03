@@ -100,11 +100,24 @@ p {
   padding: 15px;
   max-height: 120px;
   max-width: 370px;
+  position: absolute;
+  top: 35%;
+}
+
+.repo {
+  position: absolute;
+  top: 60%;
 }
 
 .tech-used-flex {
   display: flex;
   flex-direction: row;
+  position: relative;
+  top: 4%;
+}
+
+li.tech-used {
+  color: azure;
 }
 
 
