@@ -10,6 +10,7 @@ html {
 html, body {
   margin: 0;
   font-family: Arial Bold, sans-serif;
+  background-image: url(Assets/background.jpg)
 }
 
 ul {
@@ -32,7 +33,6 @@ li {
 
 footer {
   height: 50px;
-  position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
@@ -42,7 +42,6 @@ footer {
 header {
   height: 50px;
   width: 100%;
-  position: fixed;
 }
 
 .f-span {
@@ -129,7 +128,6 @@ a {
 .flex {
   display: flex;
   flex-direction: row;
-  background-image: url('Assets/background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -153,8 +151,37 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 33.3vh;
+    height: 30.3vh;
 
   }
+
+  .app-title {
+    position: relative;
+    top: -1vh;
+  }
+
+  p {
+    position: relative;
+    top: 1%
+    margin: 0;
+    font-size: .9rem;
+  }
+
+  .tech-used-flex {
+    position: relative;
+    top: 1%;
+  }
+
+  .repo {
+    position: relative;
+    top: 5%;
+  }
+
+  .f-span {
+    position: relative;
+    left: 10px;
+    top: 20px;
+  }
+
 
 }
