@@ -70,7 +70,7 @@ header {
   background-image: url('Assets/App-BG-photos/camera-bw.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: bottom;
+  background-position: right;
   color: white;
 }
 
@@ -98,8 +98,14 @@ header {
 
 p {
   padding: 15px;
+  max-height: 120px;
+  max-width: 370px;
 }
 
+.tech-used-flex {
+  display: flex;
+  flex-direction: row;
+}
 
 
 a {
@@ -120,6 +126,8 @@ a {
   text-transform: uppercase;
   font-size: xx-large;
   color: white;
+  position: absolute;
+  top: 30%;
 }
 
 @media screen and (max-width: 720px) {
