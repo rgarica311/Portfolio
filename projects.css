@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  color: white;
+  color: azure;
 }
 
 *, *:before, *:after {
@@ -63,7 +63,7 @@ header {
   background-image: url('Assets/App-BG-photos/dit-cart-bw.png');
   background-repeat: no-repeat;
   background-size: cover;
-  color: lightgrey;
+  color: white;
 }
 
 .p-2:hover {
@@ -71,7 +71,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
-  color: lightgrey;
+  color: white;
 }
 
 .p-3:hover {
@@ -79,7 +79,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 20%;
-  color: lightgrey;
+  color: white;
 }
 
 .proj {
