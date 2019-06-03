@@ -82,10 +82,20 @@ header {
 
 .proj {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
   width: 100vw;
+}
+
+.repo:hover {
+  cursor: pointer;
+
+}
+
+p {
+  padding: 15px;
 }
 
 a {
