@@ -106,7 +106,7 @@ a {
 .flex {
   display: flex;
   flex-direction: row;
-  background-image: url('Assets/background.png');
+  background-image: url('Assets/background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
