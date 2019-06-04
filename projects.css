@@ -16,7 +16,6 @@ html, body {
 ul {
   display: flex;
   flex-direction: row;
-  min-width: 30vw;
   margin: 0 auto;
   position: relative;
   top: 8px;
