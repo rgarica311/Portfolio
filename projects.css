@@ -111,8 +111,8 @@ p {
 .tech-used-flex {
   display: flex;
   flex-direction: row;
-  position: relative;
-  top: 4%;
+  position: absolute;
+  top: 55%;
 }
 
 li.tech-used {
