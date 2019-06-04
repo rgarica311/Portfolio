@@ -135,7 +135,7 @@ button {
 
 .grid {
   position: relative;
-  top: 5vh;
+  top: 5.5vh;
   display: grid;
   align-items: center;
   grid-template-columns: 20px 1fr 20px;
