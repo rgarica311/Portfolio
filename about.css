@@ -92,9 +92,9 @@ button {
 }
 
 .about-p {
-  color: grey;
-  font-size: 2vw;
   color: black;
+  font-size: 2vw;
+  margin: 0;
 }
 
 .landing-span {
@@ -118,7 +118,6 @@ button {
 }
 
 .myphoto {
-  float: left;
   max-width: 500px;
 }
 
@@ -129,6 +128,8 @@ button {
 .about-text {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  margin-left: 2%;
 }
 
 
