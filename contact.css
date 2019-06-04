@@ -103,7 +103,7 @@ textarea {
 
 @media screen and (max-width: 1010px) {
   header, footer {
-    position: relative
+    position: absolute;
   }
 
 }
