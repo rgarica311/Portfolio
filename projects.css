@@ -188,5 +188,9 @@ a {
     top: 20px;
   }
 
+  header, footer {
+    position: relative;
+  }
+
 
 }
