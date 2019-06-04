@@ -162,14 +162,16 @@ a {
 
   p {
     position: relative;
-    top: 1%
+    top: 1%;
     margin: 0;
     font-size: .9rem;
+    margin-bottom: 3%;
   }
 
   .tech-used-flex {
     position: relative;
     top: 1%;
+    margin-bottom: 3%;
   }
 
   .repo {
