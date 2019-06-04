@@ -6,6 +6,11 @@ html {
   box-sizing: inherit;
 }
 
+section {
+  position: relative;
+  min-height: 100vh;
+}
+
 html, body {
   margin: 0;
   font-family: Arial Bold, sans-serif;
@@ -42,21 +47,15 @@ a {
 
 
 footer {
-  height: 25px;
   position: absolute;
-  bottom: 1px;
+  bottom: 0;
   left: 0;
-  right: 0;
-  width: 98%;
-  margin: 0 auto;
-  display: block;
+  width: 100%;
+  height: 2.5rem;
 }
 
 .f-span {
-  position: relative;
-  left: 40px;
-  position: relative;
-  top: 20px;
+
   font-weight: bolder;
 }
 
@@ -104,7 +103,6 @@ button {
 
 .name-title {
   position: relative;
-  top: 50px;
   grid-area: name-title;
   text-transform: uppercase;
   text-align: center;
@@ -142,6 +140,7 @@ button {
   grid-template-rows: repeat(3, 1fr);
   grid-template-areas: ". name-title ." ". about ." ". footer .";
   height: 100vh;
+  padding-bottom: 2.5rem;
 }
 
 @media screen and (max-width: 1010px) {
