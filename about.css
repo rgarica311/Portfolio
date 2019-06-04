@@ -9,6 +9,7 @@ html {
 html, body {
   margin: 0;
   font-family: Arial Bold, sans-serif;
+  background-image: url(Assets/background.jpg)
 }
 
 header {
