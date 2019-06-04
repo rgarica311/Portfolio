@@ -60,11 +60,11 @@ header {
 
 
 .p-1:hover {
-  background-image: url('Assets/App-BG-photos/dit-cart-bw.png');
+  background-image: url('Assets/App-BG-photos/dit-cart.png');
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
-  background-position: right; 
+  background-position: right;
 }
 
 .p-2:hover {
@@ -76,7 +76,7 @@ header {
 }
 
 .p-3:hover {
-  background-image: url('Assets/App-BG-photos/skyline-bg-bw.png');
+  background-image: url('Assets/App-BG-photos/skyline-bg.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 20%;
@@ -132,6 +132,7 @@ a {
   flex-direction: row;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position:
 }
 
 .app-title {
