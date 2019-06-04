@@ -94,6 +94,7 @@ button {
 .about-p {
   color: grey;
   font-size: 2vw;
+  color: black;
 }
 
 .landing-span {
@@ -140,7 +141,7 @@ button {
   }
 
   .about-p {
-    font-size: 3vw;
+    font-size: 2.5vw;
   }
 
   .myphoto {
