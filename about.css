@@ -89,7 +89,7 @@ button {
 
 .about-p {
   color: grey;
-  font-size: 36px;
+  font-size: 1.5rem;
   width: 75%;
   margin-bottom: 25px;
 }
@@ -97,7 +97,6 @@ button {
 .landing-span {
   color: black;
   font-style: italic;
-  position: fixed;
   width: 75%;
 }
 
@@ -125,6 +124,8 @@ button {
 
 .flex-container-row {
   display: flex;
+  position: relative;
+  top: 40%;
 }
 
 
