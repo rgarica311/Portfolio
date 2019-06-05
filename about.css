@@ -5,3 +5,148 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
+html, body {
+  margin: 0;
+  font-family: Arial Bold, sans-serif;
+}
+
+header {
+  height: 50px;
+  width: 100%;
+  position: fixed;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  min-width: 30vw;
+  margin: 0 auto;
+  position: relative;
+  top: 20px;
+}
+
+li {
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding-right: 45px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+
+footer {
+  height: 50px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.f-span {
+  position: relative;
+  left: 40px;
+  position: relative;
+  top: 20px;
+  font-weight: bolder;
+}
+
+
+h1 {
+  word-spacing: .7em;
+  font-size: 4vw;
+  margin: 0;
+  padding: 5px;
+}
+
+h2 {
+  color: lightgrey;
+  filter: blur(1px);
+  font-size: 2vw;
+  margin: 0;
+  word-spacing: .5em;
+  letter-spacing: .5em;
+  position: relative;
+  left: .6%;
+}
+
+.p-c-buttons span {
+  text-transform: uppercase;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+}
+
+button {
+  background-color: grey;
+  height: 50px;
+  width: 150px;
+}
+
+.landing-p {
+  color: grey;
+  font-size: 36px;
+  width: 75%;
+  margin-bottom: 25px;
+}
+
+.landing-span {
+  color: black;
+  font-style: italic;
+  position: fixed;
+  width: 75%;
+}
+
+.p-c-buttons {
+  margin-top: 65px;
+}
+
+.name-title {
+  grid-area: name-title;
+  text-transform: uppercase;
+  text-align: center;
+  top: 50px;
+  position: relative;
+}
+
+.short-about {
+  grid-area: short-about;
+}
+
+.grid {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 20px 1fr 20px;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas: ". name-title ." ". short-about ." ". p-c-buttons .";
+  height: 100vh;
+}
+
+@media screen and (max-width: 720px) {
+  h1 {
+    font-size: 5vw;
+  }
+
+  h2 {
+    font-size: 5vw;
+  }
+
+  .landing-p {
+    font-size: 36px;
+    width: 100%;
+  }
+
+  .short-about {
+    padding: 0px;
+  }
+}
+
+@media screen and (max-height: 530px) {
+  .name-title {
+    display: none;
+  }
+}
