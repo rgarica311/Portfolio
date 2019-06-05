@@ -118,12 +118,8 @@ button {
 }
 
 .flex {
-  display: grid;
-  align-items: center;
-  grid-template-columns: 20px 1fr 20px;
-  grid-template-rows: repeat(3, 1fr);
-  grid-template-areas: ". name-title ." ". short-about ." ". p-c-buttons .";
-  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .flex-container-column {
