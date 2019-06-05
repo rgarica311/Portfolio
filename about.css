@@ -87,7 +87,7 @@ button {
   width: 150px;
 }
 
-.landing-p {
+.about-p {
   color: grey;
   font-size: 36px;
   width: 75%;
@@ -113,11 +113,11 @@ button {
   position: relative;
 }
 
-.short-about {
+.long-about {
   grid-area: short-about;
 }
 
-.grid {
+.flex {
   display: grid;
   align-items: center;
   grid-template-columns: 20px 1fr 20px;
@@ -125,6 +125,17 @@ button {
   grid-template-areas: ". name-title ." ". short-about ." ". p-c-buttons .";
   height: 100vh;
 }
+
+.flex-container-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenlyl
+}
+
+.flex-container-row {
+  display: flex;
+}
+
 
 @media screen and (max-width: 720px) {
   h1 {
