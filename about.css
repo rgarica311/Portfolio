@@ -106,10 +106,9 @@ button {
 }
 
 .name-title {
-  grid-area: name-title;
   text-transform: uppercase;
   text-align: center;
-  top: 50px;
+  top: 20%;
   position: relative;
 }
 
@@ -121,7 +120,7 @@ button {
 .flex-container-column {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenlyl
+  justify-content: space-evenly;
 }
 
 .flex-container-row {
