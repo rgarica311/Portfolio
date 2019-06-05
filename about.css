@@ -84,11 +84,11 @@ h2 {
 button {
   background-color: grey;
   height: 50px;
-  width: 150px;
+  width: 40%;
 }
 
 .about-p {
-  color: grey;
+  color: black;
   font-size: 1.5rem;
   width: 75%;
   margin-bottom: 25px;
@@ -102,13 +102,19 @@ button {
 
 .p-c-buttons {
   margin-top: 65px;
+  display: flex;
 }
 
 .name-title {
   text-transform: uppercase;
   text-align: center;
-  top: 20%;
-  position: relative;
+  top: 10%;
+  position: absolute;
+  left: 27vw;
+}
+
+.myphoto {
+  float: left;
 }
 
 .flex {
@@ -120,12 +126,15 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  margin-right: 2%;
+  position: relative;
+  bottom: 2.5vh;
 }
 
 .flex-container-row {
   display: flex;
-  position: relative;
-  top: 40%;
+  position: absolute;
+  top: 30%;
 }
 
 
