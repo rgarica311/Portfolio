@@ -113,10 +113,6 @@ button {
   position: relative;
 }
 
-.long-about {
-  grid-area: short-about;
-}
-
 .flex {
   display: flex;
   flex-direction: column;
