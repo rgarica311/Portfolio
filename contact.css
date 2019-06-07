@@ -12,98 +12,124 @@ html, body {
   background-image: url(Assets/background.jpg)
 }
 
-header {
-  height: 50px;
-  width: 100%;
+body {
+  position: relative;
+  height: 100vh;
 }
 
-h1 {
-  position: relative;
-  top: 20vh;
-  left: 4%;
+header {
+  height: 35px;
+  width: 100%;
+  background-color: rgb(36, 50, 69);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
+
+nav {
+  position: relative;
+  bottom: 7px;
+}
+
 
 a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 span {
   margin-right: 1vw;
 }
 
-
 ul {
   display: flex;
   flex-direction: row;
-  height: 100%;
-  margin: 0 auto;
-  position: relative;
-  top: 8px;
+  min-width: 30vw;
+  justify-content: space-evenly;
+  padding: 0px;
 }
 
 li {
   display: inline-block;
   text-transform: uppercase;
   font-weight: 500;
-  padding-right: 45px;
   font-family: 'Montserrat', sans-serif;
 }
 
 a {
   text-decoration: none;
-  color: black;
+  color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
 }
 
 footer {
-  height: 25px;
-  bottom: 1px;
+  height: 40px;
+  position: fixed;
+  bottom: 0;
   left: 0;
-  right: 0;
-  width: 98%;
-  margin: 0 auto;
-  display: block;
+  width: 100%;
+  padding-left: 10px;
+  background-color: rgb(36, 50, 69);
+  z-index: 3;
+  display: flex;
+  justify-content: space-evenly;
 }
 
-textarea {
-  height: 20vh;
-  width: 40vh;
-}
-
-.button {
+.f-span, .contact-link {
+  font-size: .6rem;
+  color: white;
   position: relative;
-  left: 16%;
+  top: 40%;
+  font-family:'Montserrat', sans-serif;
+  font-weight: bold;
 }
 
-.message {
-  position: relative;
+input[type=text], input[type=email], textarea {
+  width: 40vw;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
 }
 
-
-#name  {
-  position: relative;
-  left: 5%;
-  margin-bottom: 5px;
-  margin-top: 5px;
-}
-
-
-#mail  {
-  position: relative;
-  left: 4.5%;
-  margin-bottom: 5px;
-}
 .contact-form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 50vw;
   position: relative;
-  height: 50%;
-  width: 50%;
-  top: 35vh;
-  left: 5vh;
+  top: 20vh;
+  display: block;
+  margin: 0 auto;
 }
 
-@media screen and (max-width: 1010px) {
-  header, footer {
-    position: absolute;
+input[type=submit] {
+  cursor: pointer;
+  width: 100px;
+  height: 30px;
+}
+
+@media screen and (max-width: 620px) {
+
+  .contact-form {
+    width: 90vw;
+    top: 11vh;
+  }
+
+  input[type=text], input[type=email], textarea {
+    width: 80vw;
+  }
+
+  .f-span, .contact-link {
+    font-size: .5rem;
   }
 
 }
