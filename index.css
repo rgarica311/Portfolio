@@ -91,6 +91,7 @@ button {
   height: 50px;
   width: 150px;
   margin-bottom: 10px;
+  cursor: pointer; 
 }
 
 .landing-p {
