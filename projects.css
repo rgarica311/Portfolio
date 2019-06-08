@@ -16,7 +16,6 @@ body {
   position: relative;
   height: 100%;
   background-image: url(Assets/background.jpg);
-
 }
 
 header {
@@ -49,6 +48,17 @@ li {
   font-family: 'Montserrat', sans-serif;
 }
 
+.footer-flex {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-li {
+  margin-right: 30px;
+
+}
+
+
 a {
   text-decoration: none;
   color: white;
@@ -80,7 +90,7 @@ footer {
 
 
 .p-1:hover {
-  background-image: url('Assets/App-BG-photos/dit-cart.jpg');
+  background-image: url('Assets/App-BG-photos/dit-cart-blur.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -88,7 +98,7 @@ footer {
 }
 
 .p-2:hover {
-  background-image: url('Assets/App-BG-photos/camera-bw.jpg');
+  background-image: url('Assets/App-BG-photos/camera-bw-blur.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right;
@@ -96,7 +106,7 @@ footer {
 }
 
 .p-3:hover {
-  background-image: url('Assets/App-BG-photos/skyline-bg.png');
+  background-image: url('Assets/App-BG-photos/skyline-bg-blur.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 20%;
@@ -121,22 +131,31 @@ p {
   padding: 30px;
   max-height: 120px;
   max-width: 370px;
-  position: absolute;
-  top: 35%;
+
   text-align: center;
+  font-weight: bold;
 }
 
 .repo {
-  position: absolute;
   top: 60%;
   margin-top: 50px;
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: rgb(36, 50, 69);
+}
+
+.repo-span {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1rem;
+  color: white;
 }
 
 .tech-used-flex {
   display: flex;
   flex-direction: row;
-  position: absolute;
-  top: 55%;
+
 }
 
 li.tech-used {
@@ -157,8 +176,7 @@ li.tech-used {
   text-transform: uppercase;
   font-size: xx-large;
   color: white;
-  position: absolute;
-  top: 30%;
+
 }
 
 
@@ -186,8 +204,28 @@ li.tech-used {
   }
 
 
-  .p-2:hover {
+  .p-1 {
+    background-image: url('Assets/App-BG-photos/dit-cart-blur.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
     background-position: right;
+  }
+
+  .p-2 {
+    background-image: url('Assets/App-BG-photos/camera-bw-blur.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+
+  }
+
+  .p-3 {
+    background-image: url('Assets/App-BG-photos/skyline-bg-blur.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 20%;
+
   }
 
 

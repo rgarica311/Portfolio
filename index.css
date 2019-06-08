@@ -12,7 +12,8 @@ html, body {
 }
 
 body {
-  background-image: url(Assets/background.jpg)
+  background-image: url(Assets/background.jpg);
+  position: relative;
 }
 
 header {
@@ -79,19 +80,18 @@ h2 {
   left: .6%;
 }
 
-.p-c-buttons span {
-  text-transform: uppercase;
-  font-family: Arial, sans-serif;
-  font-weight: bold;
-  color: white;
-}
-
 button {
   background-color: rgb(36, 50, 69);
   height: 50px;
   width: 150px;
   margin-bottom: 10px;
   cursor: pointer;
+  position: relative;
+  bottom: 0;
+  text-transform: uppercase;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  color: white;
 }
 
 .landing-p {
@@ -107,11 +107,15 @@ button {
   position: fixed;
   width: 75%;
   margin-bottom: 100px;
+}
 
+.footer-flex {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .p-c-buttons {
-  margin-top: 95px;
+  margin-top: 60px;
 }
 
 .name-title {
@@ -124,16 +128,21 @@ button {
 
 .short-about {
   grid-area: short-about;
+  position: relative;
 }
 
 .btn-span {
   color: white;
 }
 
-.grid {
+.about-p {
+  font-size: 1rem;
+}
+
+.grid-flex {
   display: grid;
   align-items: center;
-  grid-template-columns: 20px 1fr 20px;
+  grid-template-columns: 250px 1fr 250px;
   grid-template-rows: repeat(3, 1fr);
   grid-template-areas: ". name-title ." ". short-about ." ". p-c-buttons .";
   height: 100vh;
@@ -148,7 +157,7 @@ button {
 }
 
 
-@media screen and (device-width: 360px) {
+@media screen and (max-width: 966px) {
   h1 {
     font-size: 5vw;
   }
@@ -158,16 +167,23 @@ button {
   }
 
   .landing-p {
-    font-size: 36px;
+    font-size: 20px;
     width: 100%;
   }
 
   .short-about {
-    padding: 0px;
+    padding: 15px;
+    height: calc(100vh - 75px);
+    margin-top: 35px;
   }
 
   footer {
     text-align: center;
+  }
+
+  .grid-flex {
+    display: flex;
+    flex-direction: column;
   }
 
 }
