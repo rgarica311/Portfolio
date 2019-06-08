@@ -70,7 +70,7 @@ h1 {
 }
 
 h2 {
-  color: lightgrey;
+  color: white;
   filter: blur(1px);
   font-size: 2vw;
   margin: 0;
@@ -81,7 +81,7 @@ h2 {
 }
 
 button {
-  background-color: rgb(36, 50, 69);
+  background-color: rgb(91, 124, 173);
   height: 50px;
   width: 150px;
   margin-bottom: 10px;
@@ -92,6 +92,8 @@ button {
   font-family: Arial, sans-serif;
   font-weight: bold;
   color: white;
+  display: block;
+  margin: 0 auto;
 }
 
 .landing-p {
@@ -104,7 +106,6 @@ button {
 .landing-span {
   color: black;
   font-style: italic;
-  position: fixed;
   width: 75%;
   margin-bottom: 100px;
 }
@@ -115,7 +116,8 @@ button {
 }
 
 .p-c-buttons {
-  margin-top: 60px;
+  margin-top: 40px;
+  display: flex;
 }
 
 .name-title {
@@ -159,11 +161,12 @@ button {
 
 @media screen and (max-width: 966px) {
   h1 {
-    font-size: 5vw;
+    font-size: 7vw;
   }
 
   h2 {
-    font-size: 5vw;
+    font-size:7vw;
+    left: 1.5%;
   }
 
   .landing-p {
@@ -188,7 +191,11 @@ button {
 
 }
 
-@media screen and (max-height: 580px) {
+.f-span {
+  font-size: .6rem;
+}
+
+@media screen and (max-height: 727px) {
   .name-title {
     display: none;
   }

@@ -203,6 +203,10 @@ li.tech-used {
     padding-right: 10px;
   }
 
+  .f-span {
+    font-size: .6rem;
+  }
+
 
   .p-1 {
     background-image: url('Assets/App-BG-photos/dit-cart-blur.jpg');
